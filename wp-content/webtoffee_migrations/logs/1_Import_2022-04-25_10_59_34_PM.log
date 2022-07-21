@@ -1,0 +1,37 @@
+04-25-2022 @ 22:59:34 - ---[ New import started at 2022-04-25 22:59:34 ] PHP Memory: , WP Memory: 40 B
+04-25-2022 @ 22:59:34 - File fetched from the server, Import initiated....
+04-25-2022 @ 22:59:35 - Using PclZip module for zip file extracton
+04-25-2022 @ 22:59:52 - Zip file extracted suceessfully
+04-25-2022 @ 22:59:52 - Db file initialized successfull
+04-25-2022 @ 22:59:53 - Database connection established.
+04-25-2022 @ 22:59:53 - Database import started...
+04-25-2022 @ 22:59:54 - 1 out of 26 Checkpoint imported.
+04-25-2022 @ 22:59:55 - 2 out of 26 Checkpoint imported.
+04-25-2022 @ 22:59:56 - 3 out of 26 Checkpoint imported.
+04-25-2022 @ 22:59:56 - 4 out of 26 Checkpoint imported.
+04-25-2022 @ 22:59:57 - 5 out of 26 Checkpoint imported.
+04-25-2022 @ 22:59:58 - 6 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:00 - 7 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:01 - 8 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:04 - 9 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:06 - 10 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:07 - 11 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:08 - 12 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:11 - 13 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:11 - 14 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:12 - 15 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:13 - 16 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:14 - 17 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:15 - 18 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:19 - 19 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:20 - 20 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:21 - 21 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:22 - 22 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:23 - 23 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:23 - 24 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:24 - 25 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:25 - 26 out of 26 Checkpoint imported.
+04-25-2022 @ 23:00:26 - Table renaming started.
+04-25-2022 @ 23:00:28 - Tables renamed successfully
+04-25-2022 @ 23:00:28 - Import process completed.
+04-25-2022 @ 23:00:28 - ---[ Import Ended at 2022-04-25 23:00:28 ] --- 

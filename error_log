@@ -1,0 +1,896 @@
+[30-Apr-2022 00:08:14 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (4) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::patternBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:14 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (3) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::countryBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:14 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (1, 8, 9, 2, 5, 6) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::ipBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:14 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (7) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::lockouts, wfBlock::allBlocks
+[30-Apr-2022 00:08:14 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (4) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::patternBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:14 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (3) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::countryBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:14 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (1, 8, 9, 2, 5, 6) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::ipBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:14 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (7) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::lockouts, wfBlock::allBlocks
+[30-Apr-2022 00:08:21 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (4) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::patternBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:21 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (3) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::countryBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:21 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (1, 8, 9, 2, 5, 6) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::ipBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:21 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (7) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::lockouts, wfBlock::allBlocks
+[30-Apr-2022 00:08:22 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (4) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::patternBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:22 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (3) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::countryBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:22 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (1, 8, 9, 2, 5, 6) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::ipBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:22 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (7) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::lockouts, wfBlock::allBlocks
+[30-Apr-2022 00:08:25 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (4) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::patternBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:25 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (3) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::countryBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:25 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (1, 8, 9, 2, 5, 6) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::ipBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:25 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (7) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::lockouts, wfBlock::allBlocks
+[30-Apr-2022 00:08:25 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (4) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::patternBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:25 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (3) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::countryBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:25 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (1, 8, 9, 2, 5, 6) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::ipBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:25 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (7) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::lockouts, wfBlock::allBlocks
+[30-Apr-2022 00:08:26 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (4) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::patternBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:26 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (3) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::countryBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:26 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (1, 8, 9, 2, 5, 6) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::ipBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:26 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (7) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::lockouts, wfBlock::allBlocks
+[30-Apr-2022 00:08:26 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (4) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::patternBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:26 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (3) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::countryBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:26 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (1, 8, 9, 2, 5, 6) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::ipBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:26 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (7) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::lockouts, wfBlock::allBlocks
+[30-Apr-2022 00:08:55 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (4) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::patternBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:55 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (3) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::countryBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:55 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (1, 8, 9, 2, 5, 6) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::ipBlocks, wfBlock::allBlocks
+[30-Apr-2022 00:08:55 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (7) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::lockouts, wfBlock::allBlocks
+[10-May-2022 23:55:45 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-May-2022 23:55:45 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-May-2022 23:56:00 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-May-2022 23:56:00 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-May-2022 00:05:23 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-May-2022 00:05:23 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-May-2022 00:05:36 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-May-2022 00:05:36 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-May-2022 00:05:46 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-May-2022 00:05:46 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:03:42 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:03:42 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:04:16 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:04:16 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:05:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:05:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:07:15 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:07:15 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:07:35 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:07:35 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:07:51 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:07:51 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:08:04 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:08:04 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:13:14 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:13:14 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:31:30 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:31:30 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:31:38 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 00:31:38 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 01:01:08 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-May-2022 01:01:08 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
